@@ -1,3 +1,5 @@
+2021/10/11
+
 #10828번 문제 (Java) https://www.acmicpc.net/problem/10828
 
 간단한 스택 구현 문제였다.
