@@ -13,9 +13,10 @@ int main() {
         max = &data[i];
         for(int j = i + 1; j < 8; j++) {
             if(data[j] > *max) {
-                swap(&data[j], max);
+                max = &data[j];
             }
         }
+        swap(&data[i], max);
     }
     for(int i = 0; i < 8; i++) {
         printf("%d\n", data[i]);
