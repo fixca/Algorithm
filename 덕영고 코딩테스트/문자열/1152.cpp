@@ -14,13 +14,13 @@ int main() {
 
     int blank = 0;
     int i;
-    for(i = 0; i < str.length() -1; i++) {
+    for(i = 0; i < str.length() - 1; i++) {
         if(str.at(i) == 32) {
             blank += (i == 0) ? 0 : 1;
         }
     }
 
-    cout << blank + (i == 0 ? 0 : 1);
+    cout << blank + (i == 1 && str.at(0) == 32 ? 0 : 1);
 
 	return 0;
 
